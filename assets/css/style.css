@@ -1,0 +1,113 @@
+html{
+    width: 100%;
+}
+.menu_01{
+    background-color: #212529;
+    display: flex;
+    align-items: center;
+    /* space-between : không gian giữa */
+    justify-content: space-between;
+}
+
+.menu_right_01{
+    display: flex;
+    list-style: none;
+}
+.menu_01 .menu-logo{
+    font-size: 2.4rem;
+}
+.menu_right_01 li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+.menu_right_01 a:hover{
+    color: yellow;
+}
+.menu_right_01 a.active{
+    color: yellow;
+}
+/* MENU 02 */
+.menu_02 {
+    background-color: #07213a;
+    display: flex;
+    align-items: center;
+    /* space-between : không gian giữa */
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+.menu_logo_02 h2{
+    font-size: 1.6rem;
+    color: white;
+}
+.menu_right_02{
+    display: flex;
+    list-style: none;
+}
+.menu_right_02 li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+}
+.menu_right_02 a:hover {
+    color: green;
+}
+
+.menu_right_02 a.active {
+    color: green;
+}
+
+/* content_01 */
+
+.content_01{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.product_01{
+    width: calc(100%/3 - 15px);
+    text-align: center;
+}
+
+.product_01 .title_01 h1{
+    color: black;
+}
+.product_01 .title_01 p{
+    color: darkgray;
+}
+
+/* content 2 */
+
+.content_02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_02 {
+    width: calc(100%/3 - 15px);
+    padding: 5rem;
+    text-align: center;
+}
+
+.product_02 .title_02 h1 {
+    color: black;
+}
+
+.product_02 .title_02 p {
+    color: darkgray;
+}
+.product_02 .product_icon{
+    background-color: rgb(255, 136, 0);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40%;
+    height: 70%;
+    margin: 0 6rem;
+}
+.icon{
+    color: white;
+}
